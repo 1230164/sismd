@@ -1,3 +1,5 @@
+package sequential;
+
 import java.util.stream.Collectors;
 import java.util.Comparator;
 import java.util.HashMap;

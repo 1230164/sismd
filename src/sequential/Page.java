@@ -1,4 +1,6 @@
-class Page {
+package sequential;
+
+public class Page {
   private String title;
   private String text;
 
