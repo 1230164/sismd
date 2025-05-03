@@ -6,7 +6,7 @@ import java.util.LinkedHashMap;
 
 public class WordCount {
   static final int maxPages = 100000;
-  static final String fileName= "enwiki.xml";
+  static final String fileName= "inputs/enwiki-20250201-pages-articles-multistream1.xml";
 
   private static final HashMap<String, Integer> counts = 
     new HashMap<String, Integer>();

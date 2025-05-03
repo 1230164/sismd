@@ -1,7 +1,9 @@
+package sequential;
+
 import java.text.BreakIterator;
 import java.util.Iterator;
 
-class Words implements Iterable<String> {
+public class Words implements Iterable<String> {
 
   private final String text;
 
