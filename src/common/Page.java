@@ -1,4 +1,4 @@
-package sequential;
+package common;
 
 public class Page {
   private String title;

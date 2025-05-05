@@ -1,7 +1,7 @@
 package completablefuture;
 
-import sequential.Page;
-import sequential.Pages;
+import common.Page;
+import common.Pages;
 
 import java.util.*;
 import java.util.concurrent.CompletableFuture;

@@ -1,8 +1,8 @@
 package threads_manual;
 
 
-import sequential.Page;
-import sequential.Pages;
+import common.Page;
+import common.Pages;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,7 +13,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class WordCountThreads {
 
     static final int maxPages = 100000;
-    static final String fileName = "inputs/enwiki-20250201-pages-articles-multistream1.xml";
+    static final String fileName = "src/inputs/enwiki-latest-pages-articles-multistream1.xml-p1p41242";
     static final int numThreads = 10;
 
     public static void main(String[] args) throws Exception {

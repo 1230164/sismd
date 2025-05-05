@@ -1,7 +1,7 @@
 package threads_manual;
 
-import sequential.Page;
-import sequential.Words;
+import common.Page;
+import common.Words;
 
 import java.util.List;
 import java.util.Map;

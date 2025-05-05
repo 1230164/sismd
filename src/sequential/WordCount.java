@@ -1,5 +1,9 @@
 package sequential;
 
+import common.Page;
+import common.Pages;
+import common.Words;
+
 import java.util.stream.Collectors;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -8,7 +12,7 @@ import java.util.LinkedHashMap;
 
 public class WordCount {
   static final int maxPages = 100000;
-  static final String fileName= "inputs/enwiki-20250201-pages-articles-multistream1.xml";
+  static final String fileName= "src/inputs/enwiki-latest-pages-articles-multistream1.xml-p1p41242";
 
   private static final HashMap<String, Integer> counts = 
     new HashMap<String, Integer>();

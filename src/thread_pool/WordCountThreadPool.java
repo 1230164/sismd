@@ -1,8 +1,8 @@
 package thread_pool;
 
-import sequential.Page;
-import sequential.Pages;
-import sequential.Words;
+import common.Page;
+import common.Pages;
+import common.Words;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.*;
@@ -11,7 +11,7 @@ import java.util.*;
 public class WordCountThreadPool {
 
     static final int maxPages = 100000;
-    static final String fileName = "InputFiles/inputFile.xml";
+    static final String fileName = "src/inputs/enwiki-latest-pages-articles-multistream1.xml-p1p41242";
     static final int THREADS = Runtime.getRuntime().availableProcessors();
     static final int BATCH_SIZE = 10; // Páginas por tarefa
 

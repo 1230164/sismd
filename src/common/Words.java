@@ -1,4 +1,4 @@
-package sequential;
+package common;
 
 import java.text.BreakIterator;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package sequential;
+package common;
 
 import java.io.FileInputStream;
 import java.util.Iterator;

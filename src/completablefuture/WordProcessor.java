@@ -1,8 +1,8 @@
 package completablefuture;
 
 
-import sequential.Page;
-import sequential.Words;
+import common.Page;
+import common.Words;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,7 +1,7 @@
 package forkjoin_framework;
 
-import sequential.Page;
-import sequential.Words;
+import common.Page;
+import common.Words;
 
 import java.util.*;
 import java.util.concurrent.RecursiveTask;

@@ -1,7 +1,7 @@
 package forkjoin_framework;
 
-import sequential.Pages;
-import sequential.Page;
+import common.Pages;
+import common.Page;
 
 import java.util.*;
 import java.util.concurrent.ForkJoinPool;
