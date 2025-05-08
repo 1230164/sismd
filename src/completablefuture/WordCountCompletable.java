@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 
 public class WordCountCompletable {
     static final int maxPages = 100000;
-    static final String fileName = "src/inputs/enwiki-20250201-pages-articles-multistream1.xml";
+    static final String fileName = "src/inputs/enwiki-latest-pages-articles-multistream1.xml-p1p41242";
     static final int numThreads = 4;
 
     public static void main(String[] args) {
