@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.ForkJoinPool;
 
 public class WordCountForkJoin {
-    static final int maxPages = 100;
+    static final int maxPages = 100000;
     static final String fileName = "src/inputs/enwiki-latest-pages-articles-multistream1.xml-p1p41242";
 
     public static void main(String[] args) {
